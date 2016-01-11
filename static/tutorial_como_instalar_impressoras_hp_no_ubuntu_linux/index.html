@@ -1,0 +1,222 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>[Tutorial] Como instalar impressoras HP no Ubuntu / Linux</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=9cbee88b34">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Fernando Paladini">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="[Tutorial] Como instalar impressoras HP no Ubuntu / Linux">
+    <meta property="og:description" content='Você tem uma impressora HP e está tendo problemas para conectá-la com seu computador que roda algum sistema operacional baseado no Linux? Neste pequeno tutorial você vai aprender a instalar o "HP Device Manager" no seu Ubuntu, Linux Mint, Elementary...'>
+    <meta property="og:url" content="http://localhost:2368/tutorial_como_instalar_impressoras_hp_no_ubuntu_linux/">
+    <meta property="article:published_time" content="2013-11-18T01:00:00.002Z">
+    <meta property="article:modified_time" content="2014-02-01T23:30:14.230Z">
+    <meta property="article:tag" content="Software Livre">
+    <meta property="article:tag" content="Tutoriais">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="[Tutorial] Como instalar impressoras HP no Ubuntu / Linux">
+    <meta name="twitter:description" content='Você tem uma impressora HP e está tendo problemas para conectá-la com seu computador que roda algum sistema operacional baseado no Linux? Neste pequeno tutorial você vai aprender a instalar o "HP Device Manager" no seu Ubuntu, Linux Mint, Elementary...'>
+    <meta name="twitter:url" content="http://localhost:2368/tutorial_como_instalar_impressoras_hp_no_ubuntu_linux/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Fernando Paladini",
+    "author": {
+        "@type": "Person",
+        "name": "Fernando Paladini",
+        "image": "//www.gravatar.com/avatar/2a428af3cd0c8c1f7e0c29ea0e2352ed?s=250&d=mm&r=x",
+        "url": "http://localhost:2368/author/fernandopaladini",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "[Tutorial] Como instalar impressoras HP no Ubuntu / Linux",
+    "url": "http://localhost:2368/tutorial_como_instalar_impressoras_hp_no_ubuntu_linux/",
+    "datePublished": "2013-11-18T01:00:00.002Z",
+    "dateModified": "2014-02-01T23:30:14.230Z",
+    "keywords": "Software Livre, Tutoriais",
+    "description": "Você tem uma impressora HP e está tendo problemas para conectá-la com seu computador que roda algum sistema operacional baseado no Linux? Neste pequeno tutorial você vai aprender a instalar o &quot;HP Device Manager&quot; no seu Ubuntu, Linux Mint, Elementary..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="Fernando Paladini" href="../rss/index.html">
+</head>
+<body class="post-template tag-software_livre tag-tutoriais nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+            <li class="nav-sobre" role="presentation"><a href="../author/fernandopaladini.1">Sobre</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-software_livre tag-tutoriais">
+
+        <header class="post-header">
+            <h1 class="post-title">[Tutorial] Como instalar impressoras HP no Ubuntu / Linux</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2013-11-17">17 November 2013</time>  on <a href="../tag/software_livre/">Software Livre</a>, <a href="../tag/tutoriais/">Tutoriais</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p><a href="http://2.bp.blogspot.com/-j_btA2qcLh0/UoliOloRyqI/AAAAAAAAAJ0/0jB7BWHNjmo/s1600/HP-Device-Manager-Linux-Ubuntu-Elementary-Printers-Impressoras.png"><img src="http://2.bp.blogspot.com/-j_btA2qcLh0/UoliOloRyqI/AAAAAAAAAJ0/0jB7BWHNjmo/s640/HP-Device-Manager-Linux-Ubuntu-Elementary-Printers-Impressoras.png" alt="[Tutorial] Como instalar impressoras HP no Ubuntu / Linux (HP Device Manager - HPLIP)" title="[Tutorial] Como instalar impressoras HP no Ubuntu / Linux (HP Device Manager - HPLIP)"></a> 
+Você tem uma impressora HP e está tendo problemas para conectá-la com seu computador que roda algum sistema operacional baseado no Linux? Neste pequeno tutorial você vai aprender a instalar o "<em>HP Device Manager</em>" no seu Ubuntu, Linux Mint, Elementary OS, Fedora, SUSE, Debian e outras distribuições Linux. Vamos usar o <a href="http://hplipopensource.com/">HPLIP OpenSource</a> </p>
+
+<p>Seguindo este tutorial você conseguirá instalar os drivers da sua impressora HP e rodar o programa da sua impressora (conhecido como HPLIP) em praticamente qualquer distribuição Linux.  </p>
+
+<p><a href="http://1.bp.blogspot.com/-Mgi3VuMxl7c/UolkTHy8UbI/AAAAAAAAAKA/VC_23gQrIIw/s1600/hp-logo-fernando-paladini-printers-ubuntu-linux-suse-elementary.jpg"><img src="http://1.bp.blogspot.com/-Mgi3VuMxl7c/UolkTHy8UbI/AAAAAAAAAKA/VC_23gQrIIw/s320/hp-logo-fernando-paladini-printers-ubuntu-linux-suse-elementary.jpg" alt="[Tutorial] Como instalar impressoras HP no Ubuntu / Linux (HP Device Manager - HPLIP)" title="[Tutorial] Como instalar impressoras HP no Ubuntu / Linux (HP Device Manager - HPLIP)"></a> 
+Antes de mais nada, <a href="http://hplipopensource.com/hplip-web/supported_devices/index.html">verifique se a sua impressora</a> </p>
+
+<p><strong>1º Passo:</strong> Baixe os arquivos necessários: </p>
+
+<blockquote>
+  <p>cd ~/Downloads &amp;&amp; wget <a href="http://prdownloads.sourceforge.net/hplip/hplip-3.13.11.run">http://prdownloads.sourceforge.net/hplip/hplip-3.13.11.run</a></p>
+</blockquote>
+
+<p><strong>2º Passo:</strong> Execute o arquivo: </p>
+
+<blockquote>
+  <p>sudo sh ~/Downloads/hplip*.run</p>
+</blockquote>
+
+<p>Agora siga o guia da instalação e vá respondendo as perguntas necessárias. A instalação é muito simples, basta seguir todas as instruções - mas caso você tenha dúvidas, sinta-se a vontade para perguntar. </p>
+
+<p>Depois de todos os procedimentos, eis que podemos usar o HPLIP no Linux: </p>
+
+<p><a href="http://4.bp.blogspot.com/-UiNA6hQchcg/UolmQe47RJI/AAAAAAAAAKM/mNqoQm8eVC4/s1600/HPLIP-HP-Device-Manager-Linux-Ubuntu.png"><img src="http://4.bp.blogspot.com/-UiNA6hQchcg/UolmQe47RJI/AAAAAAAAAKM/mNqoQm8eVC4/s640/HPLIP-HP-Device-Manager-Linux-Ubuntu.png" alt="[Tutorial] Como instalar impressoras HP no Ubuntu / Linux (HP Device Manager - HPLIP)" title="[Tutorial] Como instalar impressoras HP no Ubuntu / Linux (HP Device Manager - HPLIP)"></a> 
+Este tutorial foi útil para você? Não se esqueça de nos ajudar dando +1 na página! Qualquer dúvida ou agradecimento, use os comentários abaixo :)</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/fernandopaladini.1" style="background-image: url(http://www.gravatar.com/avatar/2a428af3cd0c8c1f7e0c29ea0e2352ed?s=250&amp;d=mm&amp;r=x)"><span class="hidden">Fernando Paladini's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/fernandopaladini.1">Fernando Paladini</a></h4>
+
+                    <p>Read <a href="../author/fernandopaladini.1">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Florianópolis, Brazil</span>
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%5BTutorial%5D%20Como%20instalar%20impressoras%20HP%20no%20Ubuntu%20%2F%20Linux&amp;url=http://localhost:2368/tutorial_como_instalar_impressoras_hp_no_ubuntu_linux/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/tutorial_como_instalar_impressoras_hp_no_ubuntu_linux/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/tutorial_como_instalar_impressoras_hp_no_ubuntu_linux/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+                /*
+                var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() {  // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    
+                    s.src = '//nandopaladini.disqus.com/embed.js';
+                    
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../tutorial_rails_4_como_renomear_rotas_rest_da_url/">
+        <section class="post">
+            <h2>[Tutorial] Rails 4 - Como renomear Rotas REST da URL</h2>
+            <p>Recentemente criei um novo projeto em Rails 4 e estou quebrando um pouco a cabeça com as grandes mudanças…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../lime_uma_incrivel_alternativa_open_source_ao_sublime_text/">
+        <section class="post">
+            <h2>Lime, uma incrível alternativa open-source ao Sublime Text</h2>
+            <p>Se você é um programador e usa algum sistema operacional Unix, provavelmente já ouviu falar do famoso Sublime Text…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">Fernando Paladini</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=9cbee88b34"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=9cbee88b34"></script>
+        
+    <script id="dsq-count-scr" src="http://nandopaladini.disqus.com/count.js" async></script>
+    
+    
+
+</body>

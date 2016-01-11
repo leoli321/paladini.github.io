@@ -1,66 +1,277 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Fernando Paladini</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Mon, 11 Jan 2016 18:44:29 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome to Ghost</title><description>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost/</link><guid isPermaLink="false">3d4cdc25-86dc-4a1b-b7fd-4816b4968a29</guid><category>Getting Started</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Mon, 11 Jan 2016 18:13:22 GMT</pubDate><content:encoded>&lt;p&gt;You're live! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. You can manage your content by signing in to the admin area at &lt;code&gt;&amp;lt;your blog URL&amp;gt;/ghost/&lt;/code&gt;. When you arrive, you can select this post from a list on the left and see a preview of it on the right. Click the little pencil icon at the top of the preview to edit this post and read the next section!&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Fernando Paladini</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Mon, 11 Jan 2016 19:26:33 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Bolsonaro Cristão - Site sobre o amor cristão espalhado por Bolsonaro</title><description>&lt;p&gt;Recentemente finalizei o site "Bolsonaro Cristão", que criei junto com o Guilherme Eufrasio de Sousa Passos, estudante de Biologia na UFSC (enquanto que eu estudo Ciência da Computação, na mesma universidade). &lt;/p&gt;
 
-&lt;h2 id="gettingstarted"&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;O site é como um pequeno agregador de notícias acerca do deputado federal Jair Messias Bolsonaro, mostrando a hipocrisia&lt;/p&gt;</description><link>http://localhost:2368/bolsonaro_cristao_site_sobre_o_amor_cristao_espalhado_por_bolsonaro/</link><guid isPermaLink="false">b4ddd10e-eba3-40d8-9984-7877ded0d90b</guid><category>Software Livre</category><category>Economia Política</category><category>Projetos</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Sat, 22 Aug 2015 21:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Recentemente finalizei o site "Bolsonaro Cristão", que criei junto com o Guilherme Eufrasio de Sousa Passos, estudante de Biologia na UFSC (enquanto que eu estudo Ciência da Computação, na mesma universidade). &lt;/p&gt;
 
-&lt;p&gt;Ghost uses something called Markdown for writing. Essentially, it's a shorthand way to manage your post formatting as you write!&lt;/p&gt;
+&lt;p&gt;O site é como um pequeno agregador de notícias acerca do deputado federal Jair Messias Bolsonaro, mostrando a hipocrisia do mesmo em se dizer cristão ao mesmo tempo que defende atrocidades que vai contra tudo que Jesus Cristo pregava. &lt;/p&gt;
 
-&lt;p&gt;Writing in Markdown is really easy. In the left hand panel of Ghost, you simply write as you normally would. Where appropriate, you can use &lt;em&gt;shortcuts&lt;/em&gt; to &lt;strong&gt;style&lt;/strong&gt; your content. For example, a list:&lt;/p&gt;
+&lt;p&gt;O site foi feito em cima de um modelo open-source, responsivo e criado em HTML5, e atualmente está disponível em . &lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Item number one&lt;/li&gt;
-&lt;li&gt;Item number two
-&lt;ul&gt;&lt;li&gt;A nested item&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;A final item&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Para acessar o site basta você ir em . O que achou do site? Encontrou algum problema? Não gostou ou se sentiu ofendido? Não esqueça de deixar sua opinião nos comentários ;) &lt;/p&gt;
 
-&lt;p&gt;or with numbers!&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.bolsonarocristao.com/"&gt;www.bolsonarocristao.com&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>[Tutorial] How to fix slow performance on Fedora 22 (using Intel processors)</title><description>&lt;p&gt;&lt;a href="http://2.bp.blogspot.com/-xrqz2SxUIfc/VXDrHneWd3I/AAAAAAAABFg/35kb0Sov2ZY/s1600/maxresdefault.jpg"&gt;&lt;img src="http://2.bp.blogspot.com/-xrqz2SxUIfc/VXDrHneWd3I/AAAAAAAABFg/35kb0Sov2ZY/s640/maxresdefault.jpg" alt="[Fernando Paladini] [Tutorial] How to fix slow performance on Fedora 22 (using Intel processors)" title="[Tutorial] How to fix slow performance on Fedora 22 (using Intel processors)"&gt;&lt;/a&gt; 
+Are you having several performance issues after upgrade from Fedora 21 to Fedora 22? Do you have big delay when you start softwares like Firefox, Chrome and others? Are you experiencing system glitches and regular freezes? &lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Remember to buy some milk  &lt;/li&gt;
-&lt;li&gt;Drink the milk  &lt;/li&gt;
-&lt;li&gt;Tweet that I remembered to buy the milk, and drank it&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;If you had a notebook or desktop that runs on the top of Intel&lt;/p&gt;</description><link>http://localhost:2368/tutorial_how_to_fix_slow_performance_on_fedora_22_using_intel_processors/</link><guid isPermaLink="false">b6d588cd-5e19-4eed-825c-b794216b19bf</guid><category>Tutoriais</category><category>Fedora</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Fri, 05 Jun 2015 00:47:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/maxresdefault.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/01/maxresdefault.jpg" alt="[Tutorial] How to fix slow performance on Fedora 22 (using Intel processors)"&gt;&lt;p&gt;&lt;a href="http://2.bp.blogspot.com/-xrqz2SxUIfc/VXDrHneWd3I/AAAAAAAABFg/35kb0Sov2ZY/s1600/maxresdefault.jpg"&gt;&lt;img src="http://2.bp.blogspot.com/-xrqz2SxUIfc/VXDrHneWd3I/AAAAAAAABFg/35kb0Sov2ZY/s640/maxresdefault.jpg" alt="[Tutorial] How to fix slow performance on Fedora 22 (using Intel processors)" title="[Tutorial] How to fix slow performance on Fedora 22 (using Intel processors)"&gt;&lt;/a&gt; 
+Are you having several performance issues after upgrade from Fedora 21 to Fedora 22? Do you have big delay when you start softwares like Firefox, Chrome and others? Are you experiencing system glitches and regular freezes? &lt;/p&gt;
 
-&lt;h3 id="links"&gt;Links&lt;/h3&gt;
+&lt;p&gt;If you had a notebook or desktop that runs on the top of Intel processors or GPUs and you're experiencing slow performance on Fedora 22, so this article can help you. If it doesn't work, &lt;a href="https://ask.fedoraproject.org/en/question/68788/slow-laptop-after-update-fedora-21-to-fedora-22/"&gt;check this question&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;Want to link to a source? No problem. If you paste in a URL, like &lt;a href="http://ghost.org"&gt;http://ghost.org&lt;/a&gt; - it'll automatically be linked up. But if you want to customise your anchor text, you can do that too! Here's a link to &lt;a href="http://ghost.org"&gt;the Ghost website&lt;/a&gt;. Neat.&lt;/p&gt;
+&lt;p&gt;First of all, you need to remove all the following packages: &lt;/p&gt;
 
-&lt;h3 id="whataboutimages"&gt;What about Images?&lt;/h3&gt;
+&lt;pre class="prettyprint lang-bsh"&gt;sudo dnf remove xorg-x11-drv-intel intel-gpu-tools libva-intel-driver&lt;/pre&gt;
 
-&lt;p&gt;Images work too! Already know the URL of the image you want to include in your article? Simply paste it in like this to make it show up:&lt;/p&gt;
+&lt;p&gt;After that, just install the same packages again: &lt;/p&gt;
 
-&lt;p&gt;&lt;img src="https://ghost.org/images/ghost.png" alt="The Ghost Logo"&gt;&lt;/p&gt;
+&lt;pre class="prettyprint lang-bsh"&gt;sudo dnf install xorg-x11-drv-intel intel-gpu-tools libva-intel-driver&lt;/pre&gt;
 
-&lt;p&gt;Not sure which image you want to use yet? That's ok too. Leave yourself a descriptive placeholder and keep writing. Come back later and drag and drop the image in to upload:&lt;/p&gt;
+&lt;p&gt;This will probably solve all your problems with Intel and Intel drivers on Fedora 22. Hope it helps! &lt;/p&gt;
 
-&lt;h3 id="quoting"&gt;Quoting&lt;/h3&gt;
+&lt;p&gt;Based on &lt;a href="https://ask.fedoraproject.org/en/question/68788/slow-laptop-after-update-fedora-21-to-fedora-22/#post-id-69576"&gt;my answer at Ask.FedoraProject&lt;/a&gt; &lt;br&gt;
+Fernando Paladini.&lt;/p&gt;</content:encoded></item><item><title>DemocracyOS: trazendo a democracia para o século 21</title><description>&lt;p&gt;&lt;img src="http://1.bp.blogspot.com/-GEn4-7rXLY4/VUL9aS1Ka1I/AAAAAAAAAzU/w_BUyHBKpaM/s1600/54c38ee62d5eaa62178ffc67_header-bg.png" alt="[Fernando Paladini] DemocracyOS: trazendo a democracia para o século 21" title="DemocracyOS: trazendo a democracia para o século 21"&gt; 
+Já faz algum tempo que há algo de novo sob a política nacional - talvez até mesmo mundial. Com o avanço da Internet, os debates políticos se tornaram cada vez mais frequentes - o que é muito estranho, dado o recente ódio que os brasileiros tinham pela política. &lt;/p&gt;
 
-&lt;p&gt;Sometimes a link isn't enough, you want to quote someone on what they've said. Perhaps you've started using a new blogging platform and feel the sudden urge to share their slogan? A quote might be just the way to do it!&lt;/p&gt;
+&lt;p&gt;Não sei&lt;/p&gt;</description><link>http://localhost:2368/democracy_os_trazendo_a_democracia_para_o_seculo_21/</link><guid isPermaLink="false">8a58b6a7-ee88-4585-aadf-7f79dec53f39</guid><category>Software Livre</category><category>Economia Política</category><category>Artigos</category><category>Filosofia</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Fri, 08 May 2015 15:22:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://1.bp.blogspot.com/-GEn4-7rXLY4/VUL9aS1Ka1I/AAAAAAAAAzU/w_BUyHBKpaM/s1600/54c38ee62d5eaa62178ffc67_header-bg.png" alt="[Fernando Paladini] DemocracyOS: trazendo a democracia para o século 21" title="DemocracyOS: trazendo a democracia para o século 21"&gt; 
+Já faz algum tempo que há algo de novo sob a política nacional - talvez até mesmo mundial. Com o avanço da Internet, os debates políticos se tornaram cada vez mais frequentes - o que é muito estranho, dado o recente ódio que os brasileiros tinham pela política. &lt;/p&gt;
+
+&lt;p&gt;Não sei se isso resumia apenas a minha realidade, mas me recordo nitidamente dos tempos em que falar de política era um tabu e o chavão "eu não gosto de política" era mais comum que o pãozinho francês em padaria. Hoje, felizmente, há algo de novo sob o sol - proporcionado principalmente pela Internet e as redes sociais. &lt;/p&gt;
+
+&lt;p&gt;Um dos problemas centrais da política é a efetivação da chamada "democracia direta" ou "democracia plena", onde a população pode (se quiser) votar em todos os projetos de lei e decisões do governo - muito diferente de como acontece atualmente, onde precisamos eleger representantes e estes governam a seu bel-prazer.  Sim, nós temos um grande problema. &lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Ghost - Just a blogging platform&lt;/p&gt;
+  &lt;p&gt;Nós somos cidadãos do século 21 fazendo o nosso melhor para interagir com instituições criadas no século 19 que são baseadas em tecnologias de informação do século 15 [papel]. 
+  &lt;em&gt;(&lt;/em&gt;Pia Mancini, cientista política e uma das fundadoras do DemocracyOS&lt;em&gt;)&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id="workingwithcode"&gt;Working with Code&lt;/h3&gt;
+&lt;p&gt;O propõe uma solução gratuita, &lt;em&gt;open-source&lt;/em&gt; e baseada na tecnologia Blockchain (a ideia que faz a moeda digital descentralizada Bitcoin funcionar) para esse nosso grande problema democrático. Veja a excelente apresentação da &lt;a href="http://www.piamancini.com/"&gt;Pia Mancini&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;Got a streak of geek? We've got you covered there, too. You can write inline &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt; blocks really easily with back ticks. Want to show off something more comprehensive? 4 spaces of indentation gets you there.&lt;/p&gt;
+&lt;iframe allowfullscreen frameborder="0" height="360" src="https://www.youtube.com/embed/LE1iQ_dgix8" width="640"&gt;&lt;/iframe&gt;  
 
-&lt;pre&gt;&lt;code&gt;.awesome-thing {
-    display: block;
-    width: 100%;
-}
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Bora dar uma olhada no &lt;a href="http://www.democracyos.org/"&gt;DemocracyOS&lt;/a&gt;? &lt;br&gt;
+Por Fernando Paladini.&lt;/p&gt;</content:encoded></item><item><title>Bitcoin: libertando os agricultores orgânicos de Buenos Aires</title><description>&lt;p&gt;&lt;img src="http://1.bp.blogspot.com/-AyoZhZEcg4w/VOM9ceDH8_I/AAAAAAAAAyM/MKqVe-hB-x8/s1600/bitcoins-liberating-organic-farmers-bitcoin-libertando-agricultores-organicos-fernando-paladini.jpg" alt="[Fernando Paladini] Bitcoin: libertando os agricultores orgânicos de Buenos Aires" title="Bitcoin: libertando os agricultores orgânicos de Buenos Aires"&gt; 
+O Bitcoin trouxe grandes novidades para o sistema monetário internacional, que já vinha caminhando de forma quase estática desde o século passado. Com as novidades tecnológicas introduzidas pelo Bitcoin é possível realizar pagamentos em qualquer horário do dia para qualquer lugar do planeta com taxas que beiram os 5 centavos&lt;/p&gt;</description><link>http://localhost:2368/bitcoin_libertando_os_agricultores_organicos_de_buenos_aires/</link><guid isPermaLink="false">ea19e939-98b0-4f11-b6fc-835b83c4247f</guid><category>Software Livre</category><category>Projetos</category><category>Bitcoin</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Tue, 17 Feb 2015 13:20:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://1.bp.blogspot.com/-AyoZhZEcg4w/VOM9ceDH8_I/AAAAAAAAAyM/MKqVe-hB-x8/s1600/bitcoins-liberating-organic-farmers-bitcoin-libertando-agricultores-organicos-fernando-paladini.jpg" alt="[Fernando Paladini] Bitcoin: libertando os agricultores orgânicos de Buenos Aires" title="Bitcoin: libertando os agricultores orgânicos de Buenos Aires"&gt; 
+O Bitcoin trouxe grandes novidades para o sistema monetário internacional, que já vinha caminhando de forma quase estática desde o século passado. Com as novidades tecnológicas introduzidas pelo Bitcoin é possível realizar pagamentos em qualquer horário do dia para qualquer lugar do planeta com taxas que beiram os 5 centavos de dólar (US$0,05), algo jamais alcançado pelo sistema financeiro atual. &lt;/p&gt;
 
-&lt;h3 id="readyforabreak"&gt;Ready for a Break?&lt;/h3&gt;
+&lt;p&gt;Esquecendo as novidades tecnológicas, o Bitcoin também traz muitos avanços sociais bem interessantes. Um deles está exposto no mini-documentário abaixo intitulado "", que foi recentemente traduzido por Rodrigo Ribeiro e revisado por Fernando Paladini, membros do grupo "&lt;a href="https://www.youtube.com/channel/UChXxax6rkM-02If1I_-i-xA"&gt;TV Bitcoin Brasil&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;Throw 3 or more dashes down on any new line and you've got yourself a fancy new divider. Aw yeah.&lt;/p&gt;
+&lt;p&gt;Confira o vídeo abaixo e veja o potencial do Bitcoin que nada mais faz que empoderar as pessoas: &lt;/p&gt;
 
-&lt;hr&gt;
+&lt;iframe allowfullscreen frameborder="0" height="360" src="https://www.youtube.com/embed/tqaQdXGxnn4" width="640"&gt;&lt;/iframe&gt;  
 
-&lt;h3 id="advancedusage"&gt;Advanced Usage&lt;/h3&gt;
+&lt;p&gt;Precisa comentar algo? :)&lt;/p&gt;</content:encoded></item><item><title>[Dica] Como evitar que o servidor / Dyno do Heroku durma?</title><description>&lt;p&gt;&lt;img src="http://4.bp.blogspot.com/-n7TDpj16xsE/VMlhcTMUsuI/AAAAAAAAAxc/qRddXscEwoQ/s1600/heroku-login-1920x1200-tutorial-servidor-dormir-dyno-evitar-idle-fernando-paladini.png" alt="[Dica] Como evitar que o servidor / Dyno do Heroku durma? - Fernando Paladini" title="[Dica] Como evitar que o servidor / Dyno do Heroku durma?"&gt; 
+Se você usa o plano gratuito do Heroku provavelmente sabe das suas limitações. A principal limitação do plano gratuito do Heroku é que muitas vezes o servidor / Dyno pode "dormir" ou "entrar em hibernação" se o seu site não tiver muitas visitas frequentes. &lt;/p&gt;
 
-&lt;p&gt;There's one fantastic secret about Markdown. If you want, you can write plain old HTML and it'll still work! Very flexible.&lt;/p&gt;
+&lt;p&gt;Resolver esse problema é muito simples -&lt;/p&gt;</description><link>http://localhost:2368/dica_como_evitar_que_o_servidor_dyno_do_heroku_durma/</link><guid isPermaLink="false">6d186673-75df-4fb1-b94c-0fb4e033372c</guid><category>Dicas</category><category>Projetos</category><category>Rails</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Wed, 28 Jan 2015 22:34:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://4.bp.blogspot.com/-n7TDpj16xsE/VMlhcTMUsuI/AAAAAAAAAxc/qRddXscEwoQ/s1600/heroku-login-1920x1200-tutorial-servidor-dormir-dyno-evitar-idle-fernando-paladini.png" alt="[Dica] Como evitar que o servidor / Dyno do Heroku durma? - Fernando Paladini" title="[Dica] Como evitar que o servidor / Dyno do Heroku durma?"&gt; 
+Se você usa o plano gratuito do Heroku provavelmente sabe das suas limitações. A principal limitação do plano gratuito do Heroku é que muitas vezes o servidor / Dyno pode "dormir" ou "entrar em hibernação" se o seu site não tiver muitas visitas frequentes. &lt;/p&gt;
 
-&lt;p&gt;&lt;input type="text" placeholder="I'm an input field!"&gt;&lt;/p&gt;
+&lt;p&gt;Resolver esse problema é muito simples - pelo menos atualmente - e não exige praticamente nenhum esforço seu. Tenho utilizado o serviço gratuito &lt;a href="http://uptimerobot.com/"&gt;UpTime Robot&lt;/a&gt; e acredito que ele tem feito o seu trabalho muito bem. &lt;/p&gt;
 
-&lt;p&gt;That should be enough to get you started. Have fun - and let us know what you think :)&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;O que ele faz é &lt;em&gt;pingar&lt;/em&gt; os sites que você configura a cada 5 minutos (no plano gratuito, no pago pode ser em intervalos ainda menores). Caso você não saiba o que é &lt;em&gt;pingar&lt;/em&gt;, é como se esse serviço acessa-se o seu site a cada 5 minutos. Por conseguinte, o seu Dyno no Heroku &lt;strong&gt;nunca&lt;/strong&gt; vai entrar em estado de hibernação, pois tecnicamente ele está recebendo visitas.  &lt;/p&gt;
+
+&lt;p&gt;O permite até 50 "monitores" que prometem pingar um site cada a cada 5 minutos no plano gratuito, o que é &lt;strong&gt;muito&lt;/strong&gt;&lt;a href="http://uptimerobot.com/"&gt;Uptime Robot&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;O que está esperando para cria sua conta no &lt;a href="https://uptimerobot.com/"&gt;Uptime Robot&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Fernando Paladini.&lt;/p&gt;</content:encoded></item><item><title>Como o Bitcoin tem mudado a realidade de países pobres da África</title><description>&lt;p&gt;&lt;img src="http://4.bp.blogspot.com/-tCZ3RAX7iDE/VKcKPfSO3FI/AAAAAAAAAwY/YIFdTGrTyko/s1600/bitcoin_uganda_boy_como_o_bitcoin_tem_mudado_o_mundo_paises_pobres_fernando_paladini.jpg" alt="[Fernando Paladini] Como o Bitcoin tem mudado a realidade de países pobres da África" title="Como o Bitcoin tem mudado a realidade de países pobres da África"&gt; 
+O Bitcoin tem cada vez mais se mostrado um agente de transformações no nosso mundo: crianças, jovens e adultos de países pobres da África tem tido sua realidade alterada por essa tecnologia revolucionária que foi criada há pouco mais de 6 anos. &lt;/p&gt;
+
+&lt;p&gt;A &lt;a href="http://bitcoinfilm.org/"&gt;BitcoinFilm&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;O vídeo mais famoso, "Bitcoin in&lt;/p&gt;</description><link>http://localhost:2368/como_o_bitcoin_tem_mudado_a_realidade_de_paises_pobres_da_africa/</link><guid isPermaLink="false">314e22b7-7663-4e04-9c7b-b4e8fd460f24</guid><category>Economia Política</category><category>Bitcoin</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Fri, 02 Jan 2015 21:29:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://4.bp.blogspot.com/-tCZ3RAX7iDE/VKcKPfSO3FI/AAAAAAAAAwY/YIFdTGrTyko/s1600/bitcoin_uganda_boy_como_o_bitcoin_tem_mudado_o_mundo_paises_pobres_fernando_paladini.jpg" alt="[Fernando Paladini] Como o Bitcoin tem mudado a realidade de países pobres da África" title="Como o Bitcoin tem mudado a realidade de países pobres da África"&gt; 
+O Bitcoin tem cada vez mais se mostrado um agente de transformações no nosso mundo: crianças, jovens e adultos de países pobres da África tem tido sua realidade alterada por essa tecnologia revolucionária que foi criada há pouco mais de 6 anos. &lt;/p&gt;
+
+&lt;p&gt;A &lt;a href="http://bitcoinfilm.org/"&gt;BitcoinFilm&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;O vídeo mais famoso, "Bitcoin in Uganda", foi lançado em maio de 2014 e só recentemente foi legendado em Português do Brasil. Acompanhe a história de Ronald, um jovem ugandense que teve sua história mudada graças ao Bitcoin - assim como dezenas de outros jovens em todo o continente africano. &lt;/p&gt;
+
+&lt;iframe allowfullscreen frameborder="0" height="360" src="//www.youtube.com/embed/4bJ6WBJVYjA" width="640"&gt;&lt;/iframe&gt;  
+
+&lt;p&gt;Então, o que achou desse mini-documentário?&lt;/p&gt;</content:encoded></item><item><title>[Resenha] O senhor está brincando, Sr. Feynman! - Richard Feynman</title><description>&lt;p&gt;&lt;img src="http://4.bp.blogspot.com/-x5MKGEVImcs/VJNlA7PFt1I/AAAAAAAAAvo/j5RPGVVGNEQ/s1600/surely-you-are-joking-o-senhor-esta-brincando-mr-sr-feynman-richard-wallpaper-fernando-paladini.jpg" alt="[Resenha] O senhor está brincando, Sr. Feynman! - Richard Feynman" title="[Resenha] O senhor está brincando, Sr. Feynman! - Richard Feynman"&gt; 
+"O senhor está brincando, Sr. Feynman!" é o estranho título dado ao brilhante livro "Surely You're Joking, Mr. Feynman!", do físico ganhador do Prêmio Nobel Richard Feynman.  &lt;/p&gt;
+
+&lt;p&gt;De cunho bem pessoal, o livro é uma coleção de lembranças pessoais do renomado físico norte-americano Richard Philips Feynman. Além de ser o&lt;/p&gt;</description><link>http://localhost:2368/resenha_o_senhor_esta_brincando_sr_feynman_richard_feynman/</link><guid isPermaLink="false">658f0bde-7888-49a3-9b4a-df5b294661f5</guid><category>Resenha</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Fri, 19 Dec 2014 01:33:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://4.bp.blogspot.com/-x5MKGEVImcs/VJNlA7PFt1I/AAAAAAAAAvo/j5RPGVVGNEQ/s1600/surely-you-are-joking-o-senhor-esta-brincando-mr-sr-feynman-richard-wallpaper-fernando-paladini.jpg" alt="[Resenha] O senhor está brincando, Sr. Feynman! - Richard Feynman" title="[Resenha] O senhor está brincando, Sr. Feynman! - Richard Feynman"&gt; 
+"O senhor está brincando, Sr. Feynman!" é o estranho título dado ao brilhante livro "Surely You're Joking, Mr. Feynman!", do físico ganhador do Prêmio Nobel Richard Feynman.  &lt;/p&gt;
+
+&lt;p&gt;De cunho bem pessoal, o livro é uma coleção de lembranças pessoais do renomado físico norte-americano Richard Philips Feynman. Além de ser o ganhador do Prêmio Nobel de 1965 por sua descoberta a respeito do &lt;em&gt;decaimento Beta&lt;/em&gt;, Feynman também é pioneiro na área de eletrodinâmica quântica, computação quântica, nanotecnologia e participou do famoso "Projeto Manhattan". &lt;/p&gt;
+
+&lt;p&gt;Caso desconheça, o Projeto Manhattan foi o projeto que culminou no desenvolvimento das primeiras bombas atômicas do mundo, que mais tarde resultaram no lançamento das bombas atômicas em Hiroshima e Nagasaki, durante a 2ª Guerra Mundial. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://2.bp.blogspot.com/-dfsbXJ0HJr4/VJN_4blGPsI/AAAAAAAAAv4/2NKub5638YI/s1600/surely-you-are-joking-mr-feynman-sr-richard-philips-nobel-cover-book-capa-fernando-paladini.jpg" alt="[Resenha] O senhor está brincando, Sr. Feynman! - Richard Feynman" title="[Resenha] O senhor está brincando, Sr. Feynman! - Richard Feynman"&gt;O livro é extremamente engraçado e não é necessário que se tenham conhecimentos em física para o entendimento geral dos capítulos, pois o livro não é focado em ciência ou física, é focado nas histórias de vida engraçadíssimas do Sr. Feynman.  &lt;/p&gt;
+
+&lt;p&gt;Sem sombra de dúvidas é um ótimo livro para passar o tempo, pois além de ser muito engraçado e agradável, conta a história de vida de um dos físicos mais conhecidos do século XX, todas as suas excentricidades e suas frequentes visitas ao Brasil. No livro, Feynman conta suas histórias no Brasil e de como chegou a participar da percussão em uma escola de samba no Rio de Janeiro, além de realizar diversas palestras e lecionar para estudantes do Rio de Janeiro por 10 meses. &lt;/p&gt;
+
+&lt;p&gt;Falando em sua posição de catedrático no Brasil, este livro contém uma importante crítica de Feynman à educação brasileira, que foi proferida em uma palestra nos anos 50 e culminou em sérias mudanças da educação de ciência no Brasil. O discurso do Sr. Feynman ainda é referência no país e é muito citado por cientistas e professores brasileiros. &lt;/p&gt;
+
+&lt;p&gt;O veredicto final para este livro é: recomendado como uma leitura para descontração. Você não irá aprender muito com ele (a respeito de ciência ou física, por exemplo), mas com certeza se divertirá lendo as histórias interessantíssimas do senhor Feynman!&lt;/p&gt;</content:encoded></item><item><title>Bitcoin e a História do Dinheiro [Legendado]</title><description>&lt;p&gt;&lt;img src="http://1.bp.blogspot.com/-jFl9paheJ6A/VH33slZMDiI/AAAAAAAAAvU/_Rg8w0LWbBo/s1600/Bitcoin-and-the-History-of-Money.jpg" alt="[Fernando Paladini] Bitcoin e a História do Dinheiro [Legendado]" title="Bitcoin e a História do Dinheiro [Legendado]"&gt; 
+Certo dia conheci &lt;a href="https://www.youtube.com/watch?v=IP0jCjyrew8"&gt;este vídeo incrível&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Após um longo hiato do mundo das traduções (já traduzi diversos programas quando era mais novo), essa foi a minha primeira tradução para este maravilhoso mundo. Pelo que observei as pessoas tem gostado bastante da legenda que criei em PT-BR para esse vídeo, pois&lt;/p&gt;</description><link>http://localhost:2368/bitcoin_e_a_historia_do_dinheiro_legendado/</link><guid isPermaLink="false">849cb22e-ece1-4b30-bc9d-2b4cb3276fd2</guid><category>Bitcoin</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Tue, 02 Dec 2014 17:45:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://1.bp.blogspot.com/-jFl9paheJ6A/VH33slZMDiI/AAAAAAAAAvU/_Rg8w0LWbBo/s1600/Bitcoin-and-the-History-of-Money.jpg" alt="[Fernando Paladini] Bitcoin e a História do Dinheiro [Legendado]" title="Bitcoin e a História do Dinheiro [Legendado]"&gt; 
+Certo dia conheci &lt;a href="https://www.youtube.com/watch?v=IP0jCjyrew8"&gt;este vídeo incrível&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Após um longo hiato do mundo das traduções (já traduzi diversos programas quando era mais novo), essa foi a minha primeira tradução para este maravilhoso mundo. Pelo que observei as pessoas tem gostado bastante da legenda que criei em PT-BR para esse vídeo, pois a tradução livre realizada ficou muito boa para o entendimento da animação.  &lt;/p&gt;
+
+&lt;p&gt;Que tal aproveitar e descobrir o que é o Bitcoin e por que ele vai mudar o mundo? Veja o vídeo traduzido para o português do Brasil logo abaixo. &lt;/p&gt;
+
+&lt;iframe allowfullscreen frameborder="0" height="360" src="//www.youtube.com/embed/nMqVow4uxpo" width="640"&gt;&lt;/iframe&gt;  
+
+&lt;p&gt;Espero que tenham gostado!&lt;/p&gt;</content:encoded></item><item><title>[Tip] How to compare strings or char pointers case insensitive in C++?</title><description>&lt;p&gt;&lt;img src="http://2.bp.blogspot.com/-z8185Cmz7II/VHU0GmwDU7I/AAAAAAAAAtM/OXs29ymAw3c/s1600/c_plus_plus_c%2B%2B_moon_wallpaper_hd_fernando_paladini.jpg" alt="[Tip] How to compare strings or char pointers case insensitive in C++? " title="[Tip] How to compare strings or char pointers case insensitive in C++? "&gt; 
+Do you want compare two strings or two char pointers case-insensitive using C++? Here's the most useful and intuitive form I have found to make this comparison. &lt;/p&gt;
+
+&lt;p&gt;This way you just need include a standard library for C++: that is, you don't need download anything nor create a new method.&lt;/p&gt;</description><link>http://localhost:2368/tip_how_to_compare_strings_or_char_pointers_case_insensitive_in_c/</link><guid isPermaLink="false">6fedc3a4-20b1-4fd2-b5c7-26ec821be125</guid><category>Software Livre</category><category>Dicas</category><category>Tutoriais</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Wed, 26 Nov 2014 02:31:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://2.bp.blogspot.com/-z8185Cmz7II/VHU0GmwDU7I/AAAAAAAAAtM/OXs29ymAw3c/s1600/c_plus_plus_c%2B%2B_moon_wallpaper_hd_fernando_paladini.jpg" alt="[Tip] How to compare strings or char pointers case insensitive in C++? " title="[Tip] How to compare strings or char pointers case insensitive in C++? "&gt; 
+Do you want compare two strings or two char pointers case-insensitive using C++? Here's the most useful and intuitive form I have found to make this comparison. &lt;/p&gt;
+
+&lt;p&gt;This way you just need include a standard library for C++: that is, you don't need download anything nor create a new method. Below we'll see some quick examples of how to compare two strings or char pointers by case-insensitive in C++ - but I already must say: it's very simple. &lt;/p&gt;
+
+&lt;p&gt;Comparing strings: &lt;/p&gt;
+
+&lt;pre class="prettyprint"&gt;  
+#include &lt;strings.h&gt; 
+#include &lt;string&gt; 
+
+string var1 = "goal", var2 = "boal";  
+if (strcasecmp(var1.c_str(),var2.c_str()) &lt;mark&gt; 0) { 
+
+cout &lt;&lt; "This will NOT print" &lt;&lt; endl;  
+} else { 
+
+cout &lt;&lt; "This will print." &lt;&lt; endl;  
+} &lt;/mark&gt;&lt;/string&gt;&lt;/strings.h&gt;&lt;/pre&gt;
+
+&lt;p&gt;Comparing char pointers: &lt;/p&gt;
+
+&lt;pre class="prettyprint"&gt;  
+#include &lt;strings.h&gt; 
+
+char* var1 = "goal", var2 = "boal";  
+if (strcasecmp(var1,var2)  0) { 
+
+cout &lt;&lt; "This will NOT print" &lt;&lt; endl;  
+} else { 
+
+cout &lt;&lt; "This will print." &lt;&lt; endl;  
+} &lt;/strings.h&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;The comparision of equals 0&lt;/strong&gt; is needed because &lt;em&gt;strcasecmp&lt;/em&gt; returns an integer, so if the returned integer is equals to zero, the chars / strings are equal. Any different value from zero indicates that the strings are different. 
+&lt;a href="http://man7.org/linux/man-pages/man3/strcasecmp.3.html"&gt;http://man7.org/linux/man-pages/man3/strcasecmp.3.html&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Thanks! &lt;br&gt;
+Fernando Paladini.&lt;/p&gt;</content:encoded></item><item><title>[TUTORIAL] Como desinstalar / remover pacotes .RPM no Fedora?</title><description>&lt;p&gt;&lt;img src="http://3.bp.blogspot.com/-tzXz86yw-ig/VGgWZ8DMw1I/AAAAAAAAAso/4M-VWv5YPJU/s1600/fedora-wallpaper-como-remover-desinstalar-pacotes-programas-rpm-how-to-uninstall-remove-packages-rpm-fernando-paladini.png" alt="[Tutorial] Como remover ou desinstalar pacotes RPM do Fedora?" title="[Tutorial] Como remover ou desinstalar pacotes RPM do Fedora?"&gt; 
+Você é um usuário novo no Fedora ou apenas esqueceu de como se removem pacotes RPM do seu sistema? Então você veio ao local certo: vamos aprender a desinstalar pacotes RPM do Fedora rapidamente.  &lt;/p&gt;
+
+&lt;p&gt;Antes de mais nada precisamos saber o nome completo do pacote que queremos remover. Para isso&lt;/p&gt;</description><link>http://localhost:2368/tutorial_como_desinstalar_remover_pacotes_rpm_no_fedora/</link><guid isPermaLink="false">e990e7c1-64bb-4b0f-a849-73499d5f9a36</guid><category>Software Livre</category><category>Tutoriais</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Sun, 16 Nov 2014 03:11:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://3.bp.blogspot.com/-tzXz86yw-ig/VGgWZ8DMw1I/AAAAAAAAAso/4M-VWv5YPJU/s1600/fedora-wallpaper-como-remover-desinstalar-pacotes-programas-rpm-how-to-uninstall-remove-packages-rpm-fernando-paladini.png" alt="[Tutorial] Como remover ou desinstalar pacotes RPM do Fedora?" title="[Tutorial] Como remover ou desinstalar pacotes RPM do Fedora?"&gt; 
+Você é um usuário novo no Fedora ou apenas esqueceu de como se removem pacotes RPM do seu sistema? Então você veio ao local certo: vamos aprender a desinstalar pacotes RPM do Fedora rapidamente.  &lt;/p&gt;
+
+&lt;p&gt;Antes de mais nada precisamos saber o nome completo do pacote que queremos remover. Para isso digite o seguinte comando no Terminal (CTRL+ALT+T): &lt;/p&gt;
+
+&lt;pre class="prettyprint lang-bsh"&gt;rpm -qa | grep -i nomeDoPrograma&lt;/pre&gt;
+
+&lt;p&gt;Isso te retornará todos os pacotes que tem esse nome. Para desinstalar ou remover um pacote RPM em específico basta digitar: &lt;/p&gt;
+
+&lt;pre class="prettyprint lang-bsh"&gt;rpm -e nomeCompletoDoPacote&lt;/pre&gt;
+
+&lt;p&gt;Exemplo real: &lt;br&gt;
+Quero remover o Mozilla Firefox, mas não sei o nome do pacote completo. Pesquiso por ele: &lt;/p&gt;
+
+&lt;pre class="prettyprint lang-bsh"&gt;[paladini@pet01 ~]$ rpm -qa | grep -i firefox  
+firefox-33.0-1.fc20.x86_64&lt;/pre&gt;
+
+&lt;p&gt;Agora que sei o nome do pacote, já posso deletar: &lt;/p&gt;
+
+&lt;pre class="prettyprint lang-bsh"&gt;[paladini@pet01 ~]$ rpm -e firefox-33.0-1.fc20.x86_64&lt;/pre&gt;
+
+&lt;p&gt;E pronto, terminamos o nosso tutorial! Bem simples, não? Quaisquer dúvidas, podem utilizar os comentários. &lt;/p&gt;
+
+&lt;p&gt;Fernando Paladini.&lt;/p&gt;</content:encoded></item><item><title>LaBitconf: o maior evento de Bitcoin da América Latina acontecerá no Brasil!</title><description>&lt;p&gt;&lt;a href="https://1.bp.blogspot.com/-pZYcpSWzm44/VGVGow9rbzI/AAAAAAAAArw/dA8h-Ndx36g/s1600/Header_FB_Port.jpg"&gt;&lt;img src="https://1.bp.blogspot.com/-pZYcpSWzm44/VGVGow9rbzI/AAAAAAAAArw/dA8h-Ndx36g/s640/Header_FB_Port.jpg" alt="[Fernando Paladini] LaBitconf: o maior evento de Bitcoin da América Latina acontecerá no Brasil!" title="LaBitconf: o maior evento de Bitcoin da América Latina acontecerá no Brasil!"&gt;&lt;/a&gt; 
+A LaBitconf ("Latin American Bitcoin Conference") é o maior evento de Bitcoin da América Latina e um dos maiores eventos do mundo sobre o assunto, isso é inegável. Em sua edição passada, na Argentina, foi um evento super elogiado e considerado por alguns o melhor evento de Bitcoin do ano.&lt;/p&gt;</description><link>http://localhost:2368/la_bitconf_o_maior_evento_de_bitcoin_da_america_latina_acontecera_no_brasil/</link><guid isPermaLink="false">f2b07433-17c5-4684-a586-585e4060aa00</guid><category>Software Livre</category><category>Dicas</category><category>Economia Política</category><category>Bitcoin</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Fri, 14 Nov 2014 01:22:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="https://1.bp.blogspot.com/-pZYcpSWzm44/VGVGow9rbzI/AAAAAAAAArw/dA8h-Ndx36g/s1600/Header_FB_Port.jpg"&gt;&lt;img src="https://1.bp.blogspot.com/-pZYcpSWzm44/VGVGow9rbzI/AAAAAAAAArw/dA8h-Ndx36g/s640/Header_FB_Port.jpg" alt="[Fernando Paladini] LaBitconf: o maior evento de Bitcoin da América Latina acontecerá no Brasil!" title="LaBitconf: o maior evento de Bitcoin da América Latina acontecerá no Brasil!"&gt;&lt;/a&gt; 
+A LaBitconf ("Latin American Bitcoin Conference") é o maior evento de Bitcoin da América Latina e um dos maiores eventos do mundo sobre o assunto, isso é inegável. Em sua edição passada, na Argentina, foi um evento super elogiado e considerado por alguns o melhor evento de Bitcoin do ano. Este ano a LaBitconf 2014 retorna no final de Dezembro e para o espanto de todos ela será realizada no...Brasil!  &lt;/p&gt;
+
+&lt;p&gt;A Fundação Bitcoin Argentina (que está no país que possui o maior ecossistema de Bitcoin da América Latina) e a Fundação Bitcoin Brasil, organizadoras do evento, estão trazendo o evento para o Brasil com o objetivo fomentar o mercado nacional nessa área de moedas digitais, criptomoedas e tecnologias baseadas no Protocolo Bitcoin.  &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://3.bp.blogspot.com/-WD870ufchrc/VGVMCberxaI/AAAAAAAAAsA/G16ZTqfThHM/s1600/Flyer%2BBitconf%2BRio%2BPort.jpg"&gt;&lt;img src="https://3.bp.blogspot.com/-WD870ufchrc/VGVMCberxaI/AAAAAAAAAsA/G16ZTqfThHM/s640/Flyer%2BBitconf%2BRio%2BPort.jpg" alt="[Fernando Paladini] LaBitconf: o maior evento de Bitcoin da América Latina acontecerá no Brasil!" title="LaBitconf: o maior evento de Bitcoin da América Latina acontecerá no Brasil!"&gt;&lt;/a&gt; 
+O evento trará mais de 25 palestrantes internacionais de peso para o país, além de 10 palestrantes nacionais, tradução simultânea e temas de extrema importância para o Bitcoin no mundo, como regulação da moeda digital, mineração e impactos sociais que as criptomoedas podem causar.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Entre os palestrantes estão:&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Jeff Garzik:&lt;/strong&gt; desenvolvedor do núcleo do Bitcoin. Já colaborou em outros projetos open-source grandiosos como o kernel do Linux e o projeto Gnome.   &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ronaldo Lemos:&lt;/strong&gt; líder de projetos da CreativeCommons no Brasil, professor de direito, diretor do Instituto Tecnologia e Sociedade do Rio de Janeiro; além de ser membro da Fundação Mozilla, Stellar e AccessNow.org.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Nicolas Cary:&lt;/strong&gt; CEO do Blockchain.info, um dos maiores sites-serviços de Bitcoin do mundo.  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Tony Gallippi:&lt;/strong&gt; co-fundador e CEO do Bitpay, a startup que recebeu mais de US$30 milhões em investimento recentemente - o que a torna a maior startup de Bitcoin do mundo. &lt;/p&gt;
+
+&lt;p&gt;Para os interessados, o evento acontecerá nos dias 06 e 07 de Dezembro no Hotel Othon Palace, no Rio de Janeiro. A programação completa e demais informações do evento podem ser encontradas na &lt;a href="http://www.labitconf.com/br"&gt;página oficial da LaBitconf 2014&lt;/a&gt;.   &lt;/p&gt;
+
+&lt;p&gt;Fernando Paladini.&lt;/p&gt;</content:encoded></item><item><title>[DICA] Como desativar o 'Visualizada às' no Facebook</title><description>&lt;p&gt;&lt;img src="http://3.bp.blogspot.com/-YGzWKE-0aGg/VEBcZWg9eWI/AAAAAAAAAqE/MZyJKfQu3vo/s1600/desativando-visualizacao-mensagens-visualizada-as-facebook-amigos-fernando-paladini-download.jpg" alt="[DICA - Fernando Paladini] Como desativar o mensagem &amp;quot;Visualizada às&amp;quot; no Facebook" title="[DICA] Como desativar o mensagem &amp;quot;Visualizada às&amp;quot; no Facebook"&gt; 
+Um recurso que muita gente detestou quando o Facebook lançou foi o "Visualizada às", um pequeno texto no canto inferior do chat do Facebook que indica que determinada mensagem já foi vista pelo seu contato.  &lt;/p&gt;
+
+&lt;p&gt;Essa mensagem é prática quando se quer saber se determinada pessoa já leu uma mensagem&lt;/p&gt;</description><link>http://localhost:2368/dica_como_desativar_o_visualizada_as_no_facebook/</link><guid isPermaLink="false">06ea20e0-c152-4f36-ac05-c9b1d5b10b52</guid><category>Dicas</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Fri, 17 Oct 2014 00:12:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://3.bp.blogspot.com/-YGzWKE-0aGg/VEBcZWg9eWI/AAAAAAAAAqE/MZyJKfQu3vo/s1600/desativando-visualizacao-mensagens-visualizada-as-facebook-amigos-fernando-paladini-download.jpg" alt="[DICA - Fernando Paladini] Como desativar o mensagem &amp;quot;Visualizada às&amp;quot; no Facebook" title="[DICA] Como desativar o mensagem &amp;quot;Visualizada às&amp;quot; no Facebook"&gt; 
+Um recurso que muita gente detestou quando o Facebook lançou foi o "Visualizada às", um pequeno texto no canto inferior do chat do Facebook que indica que determinada mensagem já foi vista pelo seu contato.  &lt;/p&gt;
+
+&lt;p&gt;Essa mensagem é prática quando se quer saber se determinada pessoa já leu uma mensagem e não respondeu, entretanto isso nem sempre é algo desejável. Bem, pelo menos não é desejável quando você não quer que saibam que você já leu uma mensagem e não respondeu. &lt;/p&gt;
+
+&lt;p&gt;Para esses casos existe uma extensão para o Mozilla Firefox / Google Chrome que "desabilita" esse recurso do Facebook. (Existe uma descrição mais técnica para quem quiser, mas não é muito difícil de imaginar o que essa extensão faz se você for desenvolvedor web). &lt;/p&gt;
+
+&lt;p&gt;Para baixar essa extensão salvadora chamada "Chat Undetected", &lt;a href="http://crossrider.com/install/14917-chat-undetected"&gt;clique aqui&lt;/a&gt;. Dúvidas podem ser tiradas nos comentários logo abaixo.&lt;/p&gt;</content:encoded></item><item><title>Os melhores sites para saber em quem NÃO votar nessas eleições!</title><description>&lt;p&gt;O ano de 2014 foi o primeiro ano em que votei em uma Eleição. Sim, este ano foi o meu primeiro ano escutando o barulhinho das duvidosas urnas eletrônicas brasileiras na hora de confirmar o voto. Como participei e defendi muito as manifestações das chamadas "&lt;a href="http://pt.wikipedia.org/wiki/Protestos_no_Brasil_em_2013"&gt;Jornadas de Junho&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://1.bp.blogspot.com/-QUXDTW_EG9Y/VDTGaKoAILI/AAAAAAAAApw/1ppTbVPxcwM/s1600/1186111_608954112480802_1088105572_n.jpg" alt="[Fernando Paladini] Os melhores sites para saber em quem NÃO votar nessas eleições!" title="Os melhores sites para saber em quem NÃO votar nessas eleições!"&gt; 
+Como já&lt;/p&gt;</description><link>http://localhost:2368/os_melhores_sites_para_saber_em_quem_nao_votar_nessas_eleicoes/</link><guid isPermaLink="false">622786bb-6807-4b0a-94e8-143a61741849</guid><category>Dicas</category><category>Economia Política</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Wed, 08 Oct 2014 05:13:00 GMT</pubDate><content:encoded>&lt;p&gt;O ano de 2014 foi o primeiro ano em que votei em uma Eleição. Sim, este ano foi o meu primeiro ano escutando o barulhinho das duvidosas urnas eletrônicas brasileiras na hora de confirmar o voto. Como participei e defendi muito as manifestações das chamadas "&lt;a href="http://pt.wikipedia.org/wiki/Protestos_no_Brasil_em_2013"&gt;Jornadas de Junho&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://1.bp.blogspot.com/-QUXDTW_EG9Y/VDTGaKoAILI/AAAAAAAAApw/1ppTbVPxcwM/s1600/1186111_608954112480802_1088105572_n.jpg" alt="[Fernando Paladini] Os melhores sites para saber em quem NÃO votar nessas eleições!" title="Os melhores sites para saber em quem NÃO votar nessas eleições!"&gt; 
+Como já faz algum tempo que me interesso &lt;strong&gt;MUITO&lt;/strong&gt; por política e economia, votar de forma consciênte não era uma opção, mas uma obrigação para mim mesmo. Acabei por preparar uma pequena lista de sites e serviços onde puderia conhecer mais sobre cada candidato e principalmente saber em quem eu NÃO queria votar. &lt;/p&gt;
+
+&lt;p&gt;Esses sites realmente me ajudaram muito na decisão dos candidatos (principalmente os primeiros da lista, que foram os mais importantes para mim), por isso decidi compartilhar por aqui. Espero que possam fazer um bom proveito.  &lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;&lt;strong&gt;Saiba em quem NÃO votar nessas eleições:&lt;/strong&gt;&lt;/u&gt; &lt;/p&gt;
+
+&lt;p&gt;Maior enciclopédia sobre políticos brasileiros: &lt;br&gt;
+&lt;a href="http://l.facebook.com/l.php?u=http%3A%2F%2Frepolitica.com.br%2F&amp;amp;h=HAQHgnr86&amp;amp;enc=AZPy4brn9-FV8IyqWWjUC7FoPYQWmbTHC3CRVnPcfBsdfP8iEWGj4v5DqFPnd4ZkF40z7AvIIzmmx7glZeM01OkxgaVKAUn1H2D84Kn2gG_17vzZpzK-qEYuulsYAof74eFuvRq1SE6JwF_SxEZGGr-8&amp;amp;s=1"&gt;http://repolitica.com.br&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Ranking dos políticos brasileiros: &lt;br&gt;
+&lt;a href="http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.politicos.org.br%2F&amp;amp;h=1AQHjVzA7&amp;amp;enc=AZNDVN5HSaT_85Is9Z6qD1XfL0eFgldihcmwrcYgNGkCJgBlQv4VRtHtIkUxV0EVg4fYb6jaICXCGBZCxywWjhezMGi3DOfjWbNQbnPDGP35e0DeSZCkRdoIuAvV5PInDIO56Aysb4avfb4hykIdMIOz&amp;amp;s=1"&gt;http://www.politicos.org.br/&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Conheça todos os candidatos e suas propostas básicas: &lt;br&gt;
+&lt;a href="http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.eleicoes2014.com.br%2F&amp;amp;h=8AQGjL5Rm&amp;amp;enc=AZPUXN41yHWZHtRBBLZ_CWFfXwxLbppgoadjKjy0yYxwthxi-ETJoQ5kfhkePQgBNCVAeAEQhBoBqxRuflnruq3hiX-6h56qwZLhUQqFLHCjEEumOdv6yCbY_D9iQy6-WhCFH5j4UC8KUk-xTFy7dv3o&amp;amp;s=1"&gt;http://www.eleicoes2014.com.br/&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Saiba qual candidato despejou mais "lixo político" nas ruas do país: &lt;br&gt;
+&lt;a href="http://l.facebook.com/l.php?u=http%3A%2F%2Flixopolitico.com%2F&amp;amp;h=VAQFs2YNE&amp;amp;enc=AZO9ep_PKMByb-VO55TQV10J7f6Un_SEkwmAlvj4XcJ47n0Xv4-5WpPICrghTSXYbUNUa90m0msNLsm3MSzdlyvWxjGpfRtHzYp7p8_AUGft4Er4-UTTggOAsHotlKpoVFpj-W_ByGhMpDu4X_HUCcUG&amp;amp;s=1"&gt;http://lixopolitico.com/&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Descubra qual deputado federal combina mais com você: &lt;br&gt;
+&lt;a href="http://www.votoaberto.com.br/extratoparlamentar/index.php"&gt;http://www.votoaberto.com.br/extratoparlamentar/index.php&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Estatísticas detalhadas dos gastos de deputados federais e senadores: &lt;br&gt;
+&lt;a href="http://www.farejadordoplanalto.com.br/politicos?locale=pt_br"&gt;http://www.farejadordoplanalto.com.br/politicos?locale=pt_br&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Veja o ranking dos partidos que mais acionaram a Justiça (negativamente): &lt;br&gt;
+&lt;a href="http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.eleicaotransparente.com.br%2F&amp;amp;h=QAQFw1LFA&amp;amp;enc=AZP0HgpwTZIPajgwUqpW-eQYqQ63GuvUWkcAT0R2uRSeumBV8DbVf-_zsrNlI11juI4hBmbgODXc04j4TIy7JKa4pWYZWGf_R3Zu2uH_TQ8CohzVY6M-5qoBDXWwkqtMLHsVWwxxucBqofPidt2pjgUt&amp;amp;s=1"&gt;http://www.eleicaotransparente.com.br&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Lista de todas as candidaturas do Brasil no site do TSE: &lt;br&gt;
+&lt;a href="http://www.tse.jus.br/eleicoes/eleicoes-2014/sistema-de-divulgacao-de-candidaturas"&gt;http://www.tse.jus.br/eleicoes/eleicoes-2014/sistema-de-divulgacao-de-candidaturas&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;Bom, acho que essa já é uma boa lista. Se conhecerem outros sites ou tiverem sugestões para a lista é só avisar pelos comentários! &lt;/p&gt;
+
+&lt;p&gt;Obrigado, &lt;br&gt;
+Fernando Paladini.&lt;/p&gt;</content:encoded></item><item><title>[Tutorial] Como ativar o clique do touchpad no GNOME</title><description>&lt;p&gt;&lt;img src="http://4.bp.blogspot.com/-8p5VJ5tbBCc/U-LquTKNQiI/AAAAAAAAAoA/CRk22rN2oBA/s1600/gnome-logo-tutorial-keyboard-mouse-fernando-paladini.png" alt="[Tutorial - Fernando Paladini] Como ativar o clique do touchpad no GNOME" title="[Tutorial] Como ativar o clique do touchpad no GNOME"&gt; 
+O Gnome é sem sombra de dúvidas uma das interfaces gráficas mais utilizadas nas distribuições Linux. Um pequeno "problema" que pode atrapalhar alguns usuários de notebook que usam o Gnome é uma configuração que bloqueia o uso do clique do &lt;em&gt;touchpad&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;Essa função, de grande importância para muita gente, já&lt;/p&gt;</description><link>http://localhost:2368/tutorial_como_ativar_o_clique_do_touchpad_no_gnome/</link><guid isPermaLink="false">b30e8a9b-1179-49f3-926c-5e344710ee8c</guid><category>Software Livre</category><category>Tutoriais</category><category>Fedora</category><category>Ubuntu</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Thu, 07 Aug 2014 03:11:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://4.bp.blogspot.com/-8p5VJ5tbBCc/U-LquTKNQiI/AAAAAAAAAoA/CRk22rN2oBA/s1600/gnome-logo-tutorial-keyboard-mouse-fernando-paladini.png" alt="[Tutorial - Fernando Paladini] Como ativar o clique do touchpad no GNOME" title="[Tutorial] Como ativar o clique do touchpad no GNOME"&gt; 
+O Gnome é sem sombra de dúvidas uma das interfaces gráficas mais utilizadas nas distribuições Linux. Um pequeno "problema" que pode atrapalhar alguns usuários de notebook que usam o Gnome é uma configuração que bloqueia o uso do clique do &lt;em&gt;touchpad&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;Essa função, de grande importância para muita gente, já vem desabilitada por padrão na interface Gnome. Se você deseja ativar o "click" no touchpad, esse tutorial é para você.  &lt;/p&gt;
+
+&lt;p&gt;O Tutorial &lt;br&gt;
+&lt;strong&gt;Passo 1 -&lt;/strong&gt; Abra a sua tela de configurações: 
+&lt;img src="http://3.bp.blogspot.com/-J_5Ai3zZ9o0/U-Lsj9rPZJI/AAAAAAAAAoM/6SQblwipMHU/s1600/Screenshot+from+2014-08-07+00:03:29.png" alt="[Tutorial - Fernando Paladini] Como ativar o clique do touchpad no GNOME" title="[Tutorial] Como ativar o clique do touchpad no GNOME"&gt; 
+&lt;strong&gt;Passo 2 -&lt;/strong&gt; Clique em "Mouse &amp;amp; Touchpad", então uma nova janela será aberta: 
+&lt;img src="http://2.bp.blogspot.com/-OOE0o4GO50k/U-Ls24U5TrI/AAAAAAAAAoU/BPD7bZE1Zig/s1600/Screenshot+from+2014-08-07+00:04:02.png" alt="[Tutorial - Fernando Paladini] Como ativar o clique do touchpad no GNOME" title="[Tutorial] Como ativar o clique do touchpad no GNOME"&gt;  
+&lt;strong&gt;Passo 3 -&lt;/strong&gt; Na caixinha onde está escrito "Tap to click", clique para deixá-la marcada / selecionada: 
+&lt;img src="http://4.bp.blogspot.com/-QTg9S_Lkcsc/U-LtSJcXS1I/AAAAAAAAAoc/Hj6ZrYLtNmE/s1600/Screenshot+from+2014-08-07+00:06:12.png" alt="[Tutorial - Fernando Paladini] Como ativar o clique do touchpad no GNOME" title="[Tutorial] Como ativar o clique do touchpad no GNOME"&gt; 
+E pronto, o seu touchpad agora já tem a função de clique!  &lt;/p&gt;
+
+&lt;p&gt;Se tiver alguma dúvida, sugestão ou crítica, fique a vontade para utilizar a seção de comentários logo abaixo, cada uma será lida!&lt;/p&gt;</content:encoded></item><item><title>[Resenha] O Arqueiro - Bernard Cornwell</title><description>&lt;p&gt;&lt;strong&gt;O Arqueiro&lt;/strong&gt;, de Bernard Cornwell, é sem sombra de dúvidas uma grande obra literária. Me atreveria a dizer que esta obra tem também grande importância histórica: não apenas por retratar fielmente conflitos ocorridos em tempos que precederam a famosa “Guerra dos Cem Anos”, mas também pela facilidade do autor em&lt;/p&gt;</description><link>http://localhost:2368/resenha_o_arqueiro_bernard_cornwell/</link><guid isPermaLink="false">92a2f7fc-45df-4ec8-827f-78ee7509e5eb</guid><category>Resenha</category><dc:creator>Fernando Paladini</dc:creator><pubDate>Sun, 03 Aug 2014 15:09:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;O Arqueiro&lt;/strong&gt;, de Bernard Cornwell, é sem sombra de dúvidas uma grande obra literária. Me atreveria a dizer que esta obra tem também grande importância histórica: não apenas por retratar fielmente conflitos ocorridos em tempos que precederam a famosa “Guerra dos Cem Anos”, mas também pela facilidade do autor em transmitir a paixão por História. Poucos foram os personagens da humanidade que conseguiram transmitir as suas paixões para um punhado de pessoas - Carl Sagan e Steve Jobs foram uma dessas poucas pessoas e são semi-deuses para muitos. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://3.bp.blogspot.com/-Lq2RJeAi34A/U95ORWxZ7BI/AAAAAAAAAnk/wDjcO4WPAWs/s1600/o-arqueiro-bernard-cornwell-fernando-paladini-resenha.jpg" alt="[Fernando Paladini - Resenha] O Arqueiro - Bernard Cornwell" title="[Resenha] O Arqueiro - Bernard Cornwell"&gt; A história de “O Arqueiro” trata da vida de Thomas de Hookton, um jovem arqueiro inglês que teve sua aldeia destruída e seu pai assassinado por soldados desconhecidos quando mal completara 18 anos de idade. Ainda no leito de morte do pai, Thomas faria a promessa de recuperar uma relíquia de Hookton e de sua família, a Lança de São Jorge. Preocupado em cumprir a promessa para seu pai e em vingar a destruição de sua amada vila, Thomas se junta ao Exército Inglês como arqueiro e participa de campanhas que anos mais tarde o levariam para a Bretanha, Normandia e França. Passando por La Roche-Derrien, Lannion e Caen, Thomas de Hookton chega ao estopim da Guerra dos Cem Anos: a gigantesca batalha de Crécy. &lt;/p&gt;
+
+&lt;p&gt;Narrando com destreza e exatidão, Cornwell faz uma apaixonada descrição dessa batalha que viria a culminar na Guerra dos Cem Anos. Apenas para fins de contextualização, a Batalha de Crécy foi travada entre Inglaterra e França: do lado inglês aproximadamente 15.000 soldados exaustos da campanha na Normandia, Bretanha e França. Liderados pelo Rei Eduardo III, as tropas ingleses estavam mal-alimentadas, esfarrapadas e sem flechas. Do outro, cerca de 40.000 homens liderados por Felipe VI de Valois. A narrativa de Cornwell é apaixonada e faz dessa batalha um dos pontos mais altos desse incrível livro denominado “O Arqueiro”. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://1.bp.blogspot.com/-Mo9s9RM5Ru8/U95P05LQsdI/AAAAAAAAAns/NPCfYnChIpo/s1600/batalha-de-cr%C3%A9cy-o-arqueiro-bernard-cornwell-resenha-livro-fernando-paladini.jpg" alt="[Fernando Paladini - Resenha] O Arqueiro - Bernard Cornwell" title="[Resenha] O Arqueiro - Bernard Cornwell"&gt; 
+Nesse livro a genialidade de Cornwell fica evidente por sua exatidão histórica e habilidade para criar personagens em meio a histórias verídicas. Para quem anseia conhecimentos e não consegue deixar de lado uma boa literatura, esse livro é uma leitura obrigatória. Cornwell definitivamente nasceu para unir o conhecimento à literatura, redefiniu o que significa “aprender brincando” e o adaptou para a literatura contemporânea. Não tem como ler e não se apaixonar.&lt;/p&gt;</content:encoded></item></channel></rss>
