@@ -1,0 +1,233 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>[Tutorial] Como importar arquivos JavaScript usando JSF</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=9cbee88b34">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Fernando Paladini">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="[Tutorial] Como importar arquivos JavaScript usando JSF">
+    <meta property="og:description" content="Se você é um viajante de primeira viagem e está tentando usar JSF com suas páginas HTML pode estar tendo muitas dúvidas. Mas não se preocupe, dúvidas são comuns, mas com o tempo e a experiência elas vão diminuindo progressivamente....">
+    <meta property="og:url" content="http://localhost:2368/2013/10/10/tutorial_como_importar_arquivos_java_script_usando_jsf/">
+    <meta property="article:published_time" content="2013-10-10T15:53:00.000Z">
+    <meta property="article:modified_time" content="2014-04-19T18:26:08.650Z">
+    <meta property="article:tag" content="Tutoriais">
+    <meta property="article:tag" content="Java">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="[Tutorial] Como importar arquivos JavaScript usando JSF">
+    <meta name="twitter:description" content="Se você é um viajante de primeira viagem e está tentando usar JSF com suas páginas HTML pode estar tendo muitas dúvidas. Mas não se preocupe, dúvidas são comuns, mas com o tempo e a experiência elas vão diminuindo progressivamente....">
+    <meta name="twitter:url" content="http://localhost:2368/2013/10/10/tutorial_como_importar_arquivos_java_script_usando_jsf/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Fernando Paladini",
+    "author": {
+        "@type": "Person",
+        "name": "Fernando Paladini",
+        "image": "//www.gravatar.com/avatar/2a428af3cd0c8c1f7e0c29ea0e2352ed?s=250&d=mm&r=x",
+        "url": "http://localhost:2368/author/fernandopaladini",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "[Tutorial] Como importar arquivos JavaScript usando JSF",
+    "url": "http://localhost:2368/2013/10/10/tutorial_como_importar_arquivos_java_script_usando_jsf/",
+    "datePublished": "2013-10-10T15:53:00.000Z",
+    "dateModified": "2014-04-19T18:26:08.650Z",
+    "keywords": "Tutoriais, Java",
+    "description": "Se você é um viajante de primeira viagem e está tentando usar JSF com suas páginas HTML pode estar tendo muitas dúvidas. Mas não se preocupe, dúvidas são comuns, mas com o tempo e a experiência elas vão diminuindo progressivamente...."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="Fernando Paladini" href="../../../../rss/index.html">
+</head>
+<body class="post-template tag-tutoriais tag-java nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../../../../">Home</a></li>
+            <li class="nav-sobre" role="presentation"><a href="../../../../author/fernandopaladini.2">Sobre</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../../../../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-tutoriais tag-java">
+
+        <header class="post-header">
+            <h1 class="post-title">[Tutorial] Como importar arquivos JavaScript usando JSF</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2013-10-10">10 October 2013</time>  on <a href="../../../../tag/tutoriais/">Tutoriais</a>, <a href="../../../../tag/java/">Java</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p>Se você é um viajante de primeira viagem e está tentando usar JSF com suas páginas HTML pode estar tendo muitas dúvidas. Mas não se preocupe, dúvidas são comuns, mas com o tempo e a experiência elas vão diminuindo progressivamente. </p>
+
+<p>Durante a conversão das suas tags HTML4 ou HTML5 para JSF podem acontecer alguns problemas e para prevenir isso é bom utilizar as tags JSF sempre que possível. Neste tutorial vamos aprender a importar os nossos arquivos JavaScript utilizando o JSF 2.0 (versões posteriores também deve funcionar). </p>
+
+<p>Atualmente o seu projeto deve se parecer com algo como: </p>
+
+<blockquote>
+  <p>|-- WebContent 
+     |-- images 
+     |-- js 
+     |-- web-inf 
+     |-- meta-inf</p>
+</blockquote>
+
+<p>Crie uma pasta "resources" dentro da pasta "<em>WebContent</em>". Após isso, jogue os seus arquivos JavaScript (.js) dentro da pasta "resources". Assim o JSF vai conseguir localizar os arquivos sem chiar.  </p>
+
+<p>Seu projeto deverá estar similar a isso agora: </p>
+
+<blockquote>
+  <p>|-- WebContent 
+     |-- images 
+     |-- resources 
+        |--js 
+     |-- web-inf 
+     |-- meta-inf</p>
+</blockquote>
+
+<p>Esse é o código padrão para chamar um arquivo JavaScript externo em HTML: </p>
+
+<pre class="prettyprint linenum"><script type="text/javascript" src="http://localhost:2368/2013/10/10/tutorial_como_importar_arquivos_java_script_usando_jsf/nomeDoArquivo.js"></script></pre>
+
+<p>Você deve trocar esse comando por: </p>
+
+<pre class="prettyprint linenum">&amp;lth:outputscript library="js" name="nomeDoArquivo.js"&gt;  
+</pre>
+
+<p>Pronto, agora já sabemos como importar arquivos JavaScript utilizando JSF. Ficou alguma dúvida sobre o tutorial, está com problema, algo pode melhorar?</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../../../../author/fernandopaladini.2" style="background-image: url(http://www.gravatar.com/avatar/2a428af3cd0c8c1f7e0c29ea0e2352ed?s=250&amp;d=mm&amp;r=x)"><span class="hidden">Fernando Paladini's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../../../../author/fernandopaladini.2">Fernando Paladini</a></h4>
+
+                    <p>Read <a href="../../../../author/fernandopaladini.2">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Florianópolis, Brazil</span>
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%5BTutorial%5D%20Como%20importar%20arquivos%20JavaScript%20usando%20JSF&amp;url=http://localhost:2368/2013/10/10/tutorial_como_importar_arquivos_java_script_usando_jsf/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2013/10/10/tutorial_como_importar_arquivos_java_script_usando_jsf/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/2013/10/10/tutorial_como_importar_arquivos_java_script_usando_jsf/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+                /*
+                var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() {  // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    
+                    s.src = '//nandopaladini.disqus.com/embed.js';
+                    
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../../19/estudantes_da_ufsc_estao_criando_nova_creche_com_formato_inovador_no_brasil/">
+        <section class="post">
+            <h2>Estudantes da UFSC estão criando nova creche com formato inovador no Brasil</h2>
+            <p>Você já ouviu falar no projeto de creche inovador que está sendo desenvolvido na UFSC? Não?? Não se preocupe,…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../../../09/29/dica_leia_mais_leia_muito_mais_utilizando_uma_lista_de_livros_lidos/">
+        <section class="post">
+            <h2>[DICA] Leia mais, leia muito mais utilizando uma lista de livros lidos</h2>
+            <p>*Aqui vai uma boa dica para os leitores de plantão. *  Eu comecei a ler livros há não muito tempo…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../../../../">Fernando Paladini</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+
+    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=9cbee88b34"></script>
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=9cbee88b34"></script>
+        
+    <script id="dsq-count-scr" src="http://nandopaladini.disqus.com/count.js" async></script>
+    
+    
+
+</body>

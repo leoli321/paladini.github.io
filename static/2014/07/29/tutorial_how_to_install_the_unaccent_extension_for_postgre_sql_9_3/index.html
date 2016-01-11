@@ -1,0 +1,226 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>[Tutorial] How to install the unaccent extension for PostgreSQL 9.3</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../../../../assets/css/screen.css?v=9cbee88b34">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Fernando Paladini">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="[Tutorial] How to install the unaccent extension for PostgreSQL 9.3">
+    <meta property="og:description" content="Sometimes you need to &quot;unaccent&quot; words, phrases or long texts, but how can you do that using a database? PostgreSQL, the &quot;world's most advanced open source database&quot; provide a nice solution to this common problem: the unaccent extension.   Our point...">
+    <meta property="og:url" content="http://localhost:2368/2014/07/29/tutorial_how_to_install_the_unaccent_extension_for_postgre_sql_9_3/">
+    <meta property="article:published_time" content="2014-07-29T05:16:00.000Z">
+    <meta property="article:modified_time" content="2014-07-29T05:16:07.522Z">
+    <meta property="article:tag" content="Software Livre">
+    <meta property="article:tag" content="Dicas">
+    <meta property="article:tag" content="Tutoriais">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="[Tutorial] How to install the unaccent extension for PostgreSQL 9.3">
+    <meta name="twitter:description" content="Sometimes you need to &quot;unaccent&quot; words, phrases or long texts, but how can you do that using a database? PostgreSQL, the &quot;world's most advanced open source database&quot; provide a nice solution to this common problem: the unaccent extension.   Our point...">
+    <meta name="twitter:url" content="http://localhost:2368/2014/07/29/tutorial_how_to_install_the_unaccent_extension_for_postgre_sql_9_3/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Fernando Paladini",
+    "author": {
+        "@type": "Person",
+        "name": "Fernando Paladini",
+        "image": "//www.gravatar.com/avatar/2a428af3cd0c8c1f7e0c29ea0e2352ed?s=250&d=mm&r=x",
+        "url": "http://localhost:2368/author/fernandopaladini",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "[Tutorial] How to install the unaccent extension for PostgreSQL 9.3",
+    "url": "http://localhost:2368/2014/07/29/tutorial_how_to_install_the_unaccent_extension_for_postgre_sql_9_3/",
+    "datePublished": "2014-07-29T05:16:00.000Z",
+    "dateModified": "2014-07-29T05:16:07.522Z",
+    "keywords": "Software Livre, Dicas, Tutoriais",
+    "description": "Sometimes you need to &quot;unaccent&quot; words, phrases or long texts, but how can you do that using a database? PostgreSQL, the &quot;world&#x27;s most advanced open source database&quot; provide a nice solution to this common problem: the unaccent extension.   Our point..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="Fernando Paladini" href="../../../../rss/index.html">
+</head>
+<body class="post-template tag-software_livre tag-dicas tag-tutoriais nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../../../../">Home</a></li>
+            <li class="nav-sobre" role="presentation"><a href="../../../../author/fernandopaladini.2">Sobre</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../../../../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-software_livre tag-dicas tag-tutoriais">
+
+        <header class="post-header">
+            <h1 class="post-title">[Tutorial] How to install the unaccent extension for PostgreSQL 9.3</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2014-07-29">29 July 2014</time>  on <a href="../../../../tag/software_livre/">Software Livre</a>, <a href="../../../../tag/dicas/">Dicas</a>, <a href="../../../../tag/tutoriais/">Tutoriais</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <p><img src="http://4.bp.blogspot.com/-TFFmoArm5aU/U9cpL3Qi4qI/AAAAAAAAAm8/O2sJLyQqtf8/s1600/postgresql-the-world-most-advanced-open-source-database-postgres-sql-unaccent-extension-install-fernando-paladini.jpg" alt="[Fernando Paladini] [Tutorial] How to install the unaccent extension for Postgresql 9.3" title="[Tutorial] How to install the unaccent extension for Postgresql 9.3"> 
+Sometimes you need to "unaccent" words, phrases or long texts, but how can you do that using a database? PostgreSQL, the "world's most advanced open source database" provide a nice solution to this common problem: the unaccent extension.  </p>
+
+<p>Our point is not to show you how to use the unaccent extension, but how to install it. If you already know how to install this extension, you can read the official documentation of unaccent extension <a href="http://www.postgresql.org/docs/9.1/static/unaccent.html">here</a> </p>
+
+<p>If you're receiving one of these errors: </p>
+
+<pre class="prettyprint">ERROR: could not open extension control file "/usr/share/postgresql/9.1/extension/unaccent.control": No such file or directory</pre>
+
+<pre class="prettyprint">ERROR: could not open extension control file "/usr/share/postgresql/9.3/extension/unaccent.control": No such file or directory</pre>
+
+<p>This tutorial is for you. Now let's solve this thing once.  </p>
+
+<p><strong>How to install unaccent extension for PostgreSQL 9.3:</strong> 
+Ubuntu / Debian:</p>
+
+<pre class="prettyprint">sudo apt-get install postgresql-contrib</pre>
+
+<p>Fedora:</p>
+
+<pre class="prettyprint">yum install postgresql-contrib</pre>
+
+<p>CentOS:</p>
+
+<pre class="prettyprint">sudo yum install postgres*contrib</pre>
+
+<p>I hope this solves your problem. If this not helps, please let me know through the comments below. Otherwise, I'm waiting for feedback in the comments too :) </p>
+
+<p>Thanks!</p>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../../../../author/fernandopaladini.2" style="background-image: url(http://www.gravatar.com/avatar/2a428af3cd0c8c1f7e0c29ea0e2352ed?s=250&amp;d=mm&amp;r=x)"><span class="hidden">Fernando Paladini's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../../../../author/fernandopaladini.2">Fernando Paladini</a></h4>
+
+                    <p>Read <a href="../../../../author/fernandopaladini.2">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Florianópolis, Brazil</span>
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%5BTutorial%5D%20How%20to%20install%20the%20unaccent%20extension%20for%20PostgreSQL%209.3&amp;url=http://localhost:2368/2014/07/29/tutorial_how_to_install_the_unaccent_extension_for_postgre_sql_9_3/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2014/07/29/tutorial_how_to_install_the_unaccent_extension_for_postgre_sql_9_3/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/2014/07/29/tutorial_how_to_install_the_unaccent_extension_for_postgre_sql_9_3/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+            <div id="disqus_thread"></div>
+            <script>
+                /**
+                 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+                 */
+                /*
+                var disqus_config = function () {
+                    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+                };
+                */
+                (function() {  // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    
+                    s.src = '//nandopaladini.disqus.com/embed.js';
+                    
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story no-cover" href="../../30/tutorial_como_ativar_o_clique_no_botao_do_meio_scroll_do_mouse_no_fedora_ubuntu_gnome/">
+        <section class="post">
+            <h2>[Tutorial] Como ativar o clique no botão do meio (scroll) do mouse no Fedora / Ubuntu / Gnome</h2>
+            <p>Você é um dos que está totalmente acostumado a utilizar o "clique no botão do meio do mouse" para…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev no-cover" href="../../05/tutorial_instalar_afinador_de_violao_e_guitarra_no_ubuntu_14_04/">
+        <section class="post">
+            <h2>[Tutorial] Instalar Afinador de Violão e Guitarra no Ubuntu 14.04</h2>
+            <p>Você toca algum instrumento como Violão e Guitarra e está com problemas para achar um afinador para Ubuntu? Neste…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../../../../">Fernando Paladini</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+
+    <script type="text/javascript" src="../../../../assets/js/jquery.fitvids.js?v=9cbee88b34"></script>
+    <script type="text/javascript" src="../../../../assets/js/index.js?v=9cbee88b34"></script>
+        
+    <script id="dsq-count-scr" src="http://nandopaladini.disqus.com/count.js" async></script>
+    
+    
+
+</body>
