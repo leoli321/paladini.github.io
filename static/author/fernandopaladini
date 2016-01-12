@@ -94,7 +94,7 @@
         <h2 class="post-title"><a href="../2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/index.html">[Tutorial] How to reset KairosDB database to default (delete all data)</a></h2>
     </header>
     <section class="post-excerpt">
-        <p>Currently I'm using KairosDB as my timeseries database for a project and sometimes I need to reset my database to default, that is, delete all data <a class="read-more" href="../2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/index.html">&raquo;</a></p>
+        <p>Currently I'm using KairosDB as my timeseries database for a project and sometimes I need to reset the database to default, that is, delete all data <a class="read-more" href="../2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/index.html">&raquo;</a></p>
     </section>
     <footer class="post-meta">
         <img class="author-thumb" src="http://www.gravatar.com/avatar/2a428af3cd0c8c1f7e0c29ea0e2352ed?s=250&amp;d=mm&amp;r=x" alt="Fernando Paladini" nopin="nopin" />
