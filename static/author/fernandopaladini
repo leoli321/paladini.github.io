@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>Fernando Paladini - Fernando Paladini</title>
+    <title>Fernando Paladini - Page 1 - Fernando Paladini</title>
     <meta name="description" content="" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -12,7 +12,8 @@
 
     <link rel="shortcut icon" href="../favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=6a51f18b5f" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=21f303f62e" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/prism.css?v=21f303f62e" />
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
     <link rel="canonical" href="fernandopaladini" />
@@ -20,11 +21,11 @@
     
     <meta property="og:site_name" content="Fernando Paladini" />
     <meta property="og:type" content="profile" />
-    <meta property="og:title" content="Fernando Paladini - Fernando Paladini" />
+    <meta property="og:title" content="Fernando Paladini - Page 1 - Fernando Paladini" />
     <meta property="og:url" content="http://localhost:2368/author/fernandopaladini/" />
     
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="Fernando Paladini - Fernando Paladini" />
+    <meta name="twitter:title" content="Fernando Paladini - Page 1 - Fernando Paladini" />
     <meta name="twitter:url" content="http://localhost:2368/author/fernandopaladini/" />
     
     <script type="application/ld+json">
@@ -75,7 +76,7 @@
         <div class="author-meta">
             <span class="author-location icon-location">Florianópolis, Brazil</span>
             
-            <span class="author-stats"><i class="icon-stats"></i> 1 post</span>
+            <span class="author-stats"><i class="icon-stats"></i> 2 posts</span>
         </div>
     </section>
 
@@ -88,6 +89,21 @@
 
 </div>
 
+<article class="post tag-tutorial tag-kairosdb tag-timeseries">
+    <header class="post-header">
+        <h2 class="post-title"><a href="../2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/index.html">[Tutorial] How to reset KairosDB database to default (delete all data)</a></h2>
+    </header>
+    <section class="post-excerpt">
+        <p>Currently I'm using KairosDB as my timeseries database for a project and sometimes I need to reset my database to default, that is, delete all data <a class="read-more" href="../2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/index.html">&raquo;</a></p>
+    </section>
+    <footer class="post-meta">
+        <img class="author-thumb" src="http://www.gravatar.com/avatar/2a428af3cd0c8c1f7e0c29ea0e2352ed?s=250&amp;d=mm&amp;r=x" alt="Fernando Paladini" nopin="nopin" />
+        <a href="fernandopaladini">Fernando Paladini</a>
+         on <a href="../tag/tutorial/index.html">tutorial</a>, <a href="../tag/kairosdb/index.html">kairosdb</a>, <a href="../tag/timeseries/index.html">timeseries</a>
+        <time class="post-date" datetime="2016-01-12">12 January 2016</time>
+        <a href="../2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/index.html#disqus_thread">Comments</a>
+    </footer>
+</article>
 <article class="post tag-tutorial tag-tips tag-github-pages">
     <header class="post-header">
         <h2 class="post-title"><a href="../2016/01/11/setup-free-and-very-fast-ghost-hosting-on-github-pages/index.html">[Tutorial] Free Ghost hosting on Github Pages</a></h2>
@@ -122,8 +138,9 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     
 
-    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=6a51f18b5f"></script>
-    <script type="text/javascript" src="../assets/js/index.js?v=6a51f18b5f"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=21f303f62e"></script>
+    <script type="text/javascript" src="../assets/js/prism.js?v=21f303f62e"></script> 
+    <script type="text/javascript" src="../assets/js/index.js?v=21f303f62e"></script>
         
     <script id="dsq-count-scr" src="http://nandopaladini.disqus.com/count.js" async></script>
     

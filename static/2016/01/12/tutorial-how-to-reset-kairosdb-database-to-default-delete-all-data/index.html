@@ -3,7 +3,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>[Tutorial] Free Ghost hosting on Github Pages</title>
+    <title>[Tutorial] How to reset KairosDB database to default (delete all data)</title>
     <meta name="description" content="">
 
     <meta name="HandheldFriendly" content="True">
@@ -20,21 +20,21 @@
     
     <meta property="og:site_name" content="Fernando Paladini">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="[Tutorial] Free Ghost hosting on Github Pages">
-    <meta property="og:description" content="Recently I've read an awesome post on how to use the Ghost blogging plataform alongside with Github Pages - in other words, use Ghost with a free hosting.  The article in question can be found here, but the author don't...">
-    <meta property="og:url" content="http://localhost:2368/2016/01/11/setup-free-and-very-fast-ghost-hosting-on-github-pages/">
-    <meta property="og:image" content="http://localhost:2368/content/images/2016/01/ghost_tryghost_nodejs_blogging_platform-1024x554.png">
-    <meta property="article:published_time" content="2016-01-12T00:48:28.549Z">
-    <meta property="article:modified_time" content="2016-01-12T00:48:28.496Z">
+    <meta property="og:title" content="[Tutorial] How to reset KairosDB database to default (delete all data)">
+    <meta property="og:description" content="Currently I'm using KairosDB as my timeseries database for a project and sometimes I need to reset my database to default, that is, delete all data of my database.  I couldn't find how to do that in the KairosDB documentation,...">
+    <meta property="og:url" content="http://localhost:2368/2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/">
+    <meta property="og:image" content="http://localhost:2368/content/images/2016/01/istock_000020629363medium_table.jpg">
+    <meta property="article:published_time" content="2016-01-12T12:46:46.700Z">
+    <meta property="article:modified_time" content="2016-01-12T12:53:46.642Z">
     <meta property="article:tag" content="tutorial">
-    <meta property="article:tag" content="tips">
-    <meta property="article:tag" content="github pages">
+    <meta property="article:tag" content="kairosdb">
+    <meta property="article:tag" content="timeseries">
     
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="[Tutorial] Free Ghost hosting on Github Pages">
-    <meta name="twitter:description" content="Recently I've read an awesome post on how to use the Ghost blogging plataform alongside with Github Pages - in other words, use Ghost with a free hosting.  The article in question can be found here, but the author don't...">
-    <meta name="twitter:url" content="http://localhost:2368/2016/01/11/setup-free-and-very-fast-ghost-hosting-on-github-pages/">
-    <meta name="twitter:image:src" content="http://localhost:2368/content/images/2016/01/ghost_tryghost_nodejs_blogging_platform-1024x554.png">
+    <meta name="twitter:title" content="[Tutorial] How to reset KairosDB database to default (delete all data)">
+    <meta name="twitter:description" content="Currently I'm using KairosDB as my timeseries database for a project and sometimes I need to reset my database to default, that is, delete all data of my database.  I couldn't find how to do that in the KairosDB documentation,...">
+    <meta name="twitter:url" content="http://localhost:2368/2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/">
+    <meta name="twitter:image:src" content="http://localhost:2368/content/images/2016/01/istock_000020629363medium_table.jpg">
     
     <script type="application/ld+json">
 {
@@ -49,20 +49,20 @@
         "sameAs": null,
         "description": null
     },
-    "headline": "[Tutorial] Free Ghost hosting on Github Pages",
-    "url": "http://localhost:2368/2016/01/11/setup-free-and-very-fast-ghost-hosting-on-github-pages/",
-    "datePublished": "2016-01-12T00:48:28.549Z",
-    "dateModified": "2016-01-12T00:48:28.496Z",
-    "image": "http://localhost:2368/content/images/2016/01/ghost_tryghost_nodejs_blogging_platform-1024x554.png",
-    "keywords": "tutorial, tips, github pages",
-    "description": "Recently I&#x27;ve read an awesome post on how to use the Ghost blogging plataform alongside with Github Pages - in other words, use Ghost with a free hosting.  The article in question can be found here, but the author don&#x27;t..."
+    "headline": "[Tutorial] How to reset KairosDB database to default (delete all data)",
+    "url": "http://localhost:2368/2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/",
+    "datePublished": "2016-01-12T12:46:46.700Z",
+    "dateModified": "2016-01-12T12:53:46.642Z",
+    "image": "http://localhost:2368/content/images/2016/01/istock_000020629363medium_table.jpg",
+    "keywords": "tutorial, kairosdb, timeseries",
+    "description": "Currently I&#x27;m using KairosDB as my timeseries database for a project and sometimes I need to reset my database to default, that is, delete all data of my database.  I couldn&#x27;t find how to do that in the KairosDB documentation,..."
 }
     </script>
 
     <meta name="generator" content="Ghost 0.7">
     <link rel="alternate" type="application/rss+xml" title="Fernando Paladini" href="../../../../rss/index.html">
 </head>
-<body class="post-template tag-tutorial tag-tips tag-github-pages nav-closed">
+<body class="post-template tag-tutorial tag-kairosdb tag-timeseries nav-closed">
 
     <div class="nav">
     <h3 class="nav-title">Menu</h3>
@@ -83,7 +83,7 @@
         
 
 
-<header class="main-header post-head " style="background-image: url(../../../../content/images/2016/01/ghost_tryghost_nodejs_blogging_platform-1024x554.png)">
+<header class="main-header post-head " style="background-image: url(../../../../content/images/2016/01/istock_000020629363medium_table.jpg)">
     <nav class="main-nav overlay clearfix">
         
             <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
@@ -91,25 +91,39 @@
 </header>
 
 <main class="content" role="main">
-    <article class="post tag-tutorial tag-tips tag-github-pages">
+    <article class="post tag-tutorial tag-kairosdb tag-timeseries">
 
         <header class="post-header">
-            <h1 class="post-title">[Tutorial] Free Ghost hosting on Github Pages</h1>
+            <h1 class="post-title">[Tutorial] How to reset KairosDB database to default (delete all data)</h1>
             <section class="post-meta">
-                <time class="post-date" datetime="2016-01-11">11 January 2016</time>  on <a href="../../../../tag/tutorial/">tutorial</a>, <a href="../../../../tag/tips/">tips</a>, <a href="../../../../tag/github-pages/">github pages</a>
+                <time class="post-date" datetime="2016-01-12">12 January 2016</time>  on <a href="../../../../tag/tutorial/">tutorial</a>, <a href="../../../../tag/kairosdb/">kairosdb</a>, <a href="../../../../tag/timeseries/">timeseries</a>
             </section>
         </header>
 
         <section class="post-content">
-            <p>Recently I've read an awesome post on how to use the <a href="http://www.ghost.org">Ghost blogging plataform</a> alongside with Github Pages - in other words, use Ghost with a free hosting. </p>
+            <p><img src="../../../../content/images/2016/01/logo_500-80px_kairosdb-logo.png" alt="How to reset KairosDB database to default | delete all data"></p>
 
-<p>The article in question can be <a href="http://ledtechnica.com/free-ghost-hosting-on-github-pages/">found here</a>, but the author don't clarify some important parts of the tutorial. Based on that, I've made an Github repository teaching how to get a free Ghost hosting on Github pages. </p>
+<p>Currently I'm using KairosDB as my timeseries database for a project and sometimes I need to reset my database to default, that is, delete all data of my database. </p>
 
-<p><img src="../../../../content/images/2016/01/Screenshot-from-2016-01-11-22-41-17.png" alt=""></p>
+<p>I couldn't find how to do that in the <a href="http://kairosdb.github.io/docs/build/html/index.html">KairosDB documentation</a>, so I've found a way to delete the database by myself. I've posted how to reset KairosDB database to default on <a href="https://github.com/kairosdb/kairosdb/issues/217">this Github issue</a>, but you can find the same answer bellow:</p>
 
-<p>I also made an interesting script (that you can find in my repository) that allow you to update your website with a single line of code. The installation process keeps boring, but now it's very easy to update your website.</p>
+<pre><code class="language-bash"># Enter Cassandra Query Language terminal
+cqlsh
 
-<p><a href="https://github.com/paladini/ghost-for-github-pages">Check my Github repository here</a>, hope these instructions can help you!</p>
+# Drop kairosdb keyspace (don't use "cqlsh&gt;" before the command)
+cqlsh&gt; DROP KEYSPACE kairosdb ; 
+
+# Exit Cassandra Query Language terminal (don't use "cqlsh&gt;" before the command)
+cqlsh&gt; exit
+
+# Stopping KairosDB (you can use systemctl instead of manual path)
+sudo /opt/kairosdb/bin/kairosdb.sh stop
+
+# Running KairosDB
+sudo /opt/kairosdb/bin/kairosdb.sh start  
+</code></pre>
+
+<p>Hope it help you!</p>
         </section>
 
         <footer class="post-footer">
@@ -132,13 +146,13 @@
 
             <section class="share">
                 <h4>Share this post</h4>
-                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%5BTutorial%5D%20Free%20Ghost%20hosting%20on%20Github%20Pages&amp;url=http://localhost:2368/2016/01/11/setup-free-and-very-fast-ghost-hosting-on-github-pages/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%5BTutorial%5D%20How%20to%20reset%20KairosDB%20database%20to%20default%20(delete%20all%20data)&amp;url=http://localhost:2368/2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <span class="hidden">Twitter</span>
                 </a>
-                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2016/01/11/setup-free-and-very-fast-ghost-hosting-on-github-pages/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <span class="hidden">Facebook</span>
                 </a>
-                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/2016/01/11/setup-free-and-very-fast-ghost-hosting-on-github-pages/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/2016/01/12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <span class="hidden">Google+</span>
                 </a>
             </section>
@@ -172,10 +186,10 @@
 </main>
 
 <aside class="read-next">
-    <a class="read-next-story " style="background-image: url(../../../../content/images/2016/01/istock_000020629363medium_table.jpg)" href="../../12/tutorial-how-to-reset-kairosdb-database-to-default-delete-all-data/">
+    <a class="read-next-story prev " style="background-image: url(../../../../content/images/2016/01/ghost_tryghost_nodejs_blogging_platform-1024x554.png)" href="../../11/setup-free-and-very-fast-ghost-hosting-on-github-pages/">
         <section class="post">
-            <h2>[Tutorial] How to reset KairosDB database to default (delete all data)</h2>
-            <p>Currently I'm using KairosDB as my timeseries database for a project and sometimes I need to reset my database…</p>
+            <h2>[Tutorial] Free Ghost hosting on Github Pages</h2>
+            <p>Recently I've read an awesome post on how to use the Ghost blogging plataform alongside with Github Pages -…</p>
         </section>
     </a>
 </aside>
